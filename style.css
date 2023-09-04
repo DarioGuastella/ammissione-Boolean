@@ -1,0 +1,141 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .sfondo {
+    background-image: url("background.jpg");
+    height: 100%;
+    
+  
+    /* Centraggio sfondo */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  }
+  /* HEADER */
+
+  header {
+
+    margin: auto;
+  
+    text-align: center;
+    max-width: 50%;
+  
+  }
+ 
+
+  img {
+    max-width: 40%;
+    max-height: 40%;
+    margin-top: 30px;
+  }
+
+  h1{
+    color: #00dd00;
+    margin-bottom: 0;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+  
+  }
+
+  /* Navigatore */
+
+ .container {
+    margin: auto;
+    width: 1000px;
+    height: 1000px;
+    background-color: #00dd00;
+    text-align: center;
+    height: 50px;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+     }
+
+.btn {
+
+    margin-left: 5px;
+}
+
+/* MAIN */
+
+.contenuto {
+
+  background-color: rgba(0,0,0,.5);
+  margin: auto;
+  width: 1200px;
+  height: 850px;
+  border-radius: 20px;
+  position: relative;
+  top: 30px;
+}
+
+.Opzioni {
+
+  margin: auto;
+  width: 1000px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+
+}
+
+.Modello {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 0px;
+
+}
+
+.Indirizzo {
+  margin: auto;
+  width: 1000px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  line-height: 150%;
+  margin-top: -10px;
+
+}
+
+/* INDICATORI BATTERIA RESIDUA*/
+
+.orange {
+  
+  background-color: #f5b453;
+  
+  width: 350px;
+  height: 30px;
+  left: 30px;
+  top: 39px;
+  border-radius: 5px;
+  margin-top: -18px;
+}
+
+.green {
+  
+  background-color: #1ec31e;
+  
+  width: 600px;
+  height: 30px;
+  left: 30px;
+  top: 39px;
+  margin-top: -18px;
+  border-radius: 5px;
+}
+
+.red {
+  
+  background-color: #be4141;
+  
+  width: 150px;
+  height: 30px;
+  left: 30px;
+  top: 39px;
+  border-radius: 5px;
+  margin-top: -18px;
+}
